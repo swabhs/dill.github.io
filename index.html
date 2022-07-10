@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tsvetshop
+title: DILL Lab
 notitle: true
 
 # groups of columns of {roles: list, width: num, image: bool}
@@ -11,18 +11,22 @@ role-tables:
   - roles: [grad]
     width: 8
     image: true
+  - roles: [collab]
+    width: 12
+    image: true
 alum-tables:
 - - roles: [alum]
     width: 6
     image: false
 
-image_sliders:
-  - group_gallery
+<!-- image_sliders:
+  - group_gallery -->
 ---
 <div class="jumbotron">
     <p>
-        Welcome to <b>TsvetShop</b>! <a href="https://homes.cs.washington.edu/~yuliats/">Yulia Tsvetkov</a>'s research group with members at the <b>Paul G. Allen School of Computer Science & Engineering</b> at the <b>University of Washington</b> and the <b>Language Technologies Institute</b> of <b>Carnegie Mellon University</b>.
-        Our group works on multidisciplinary research at the nexus of machine learning, computational linguistics and the social sciences to develop practical solutions to natural language processing problems that combine sophisticated learning and modeling methods with insights into human languages and the people who speak them. 
+        Welcome to the <b>Data, Interpretability, Language and Learning Lab</b>, at the <a href="https://cs.usc.edu">Computer Science Department</a>
+        in the <a href="https://viterbischool.usc.edu/">Viterbi School of Engineering</a> at the <a href="https://www.usc.edu/">University of Southern California</a>.
+        DILL is led by <a href="https://swabhs.com">Swabha Swayamdipta</a>.
     </p>
 </div>
 {% comment %} <br/>
@@ -40,12 +44,13 @@ image_sliders:
         </div>
         <div class="col-md-6">
         <div class="twt_wrap">
-        <a class="twitter-timeline" dnt="true" data-width="700" data-height="300" data-theme="light" data-chrome="noheader nofooter" href="https://twitter.com/tsvetshop?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="twitter-timeline" dnt="true" data-width="700" data-height="300" data-theme="light" data-chrome="noheader nofooter"
+        href="https://twitter.com/swabhz"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         </div>
     </div>
 
-    {% comment %} <ul class="news list-unstyled">
+    <ul class="news list-unstyled">
         {% for post in site.posts limit: 5 %}
             {% include news-item.html item=post %}
         {% endfor %}
@@ -56,7 +61,7 @@ image_sliders:
             <span class="fa fa-fw fa-history"></span>
             <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
         </p>
-    {% endif %} {% endcomment %}
+    {% endif %}
 </section>
 
 <hr></hr>
@@ -95,23 +100,23 @@ image_sliders:
 <div id="publications">
     <h2>Publications</h2>
     {% include pubs.html %}
-    <p>
+    <!-- <p>
         <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
-    </p>
+    </p> -->
 </div>
 
 <hr></hr>
 
 <div id="funding">
     <h2>Funding</h2>
-    Our work has been supported by the following organizations/companies:
+    <!-- Our work has been supported by the following organizations/companies:
     <br></br>
     <img src="img/logo/google.png" alt="DARPA Logo" style="width:230px;height:75px;padding-right: 20px;">
     <img src="img/logo/darpa.jpg" alt="DARPA Logo" style="width:150px;height:100px;padding-right: 10px;">
     <img src="img/logo/nsf.png" alt="NSF Logo" style="width:100px;height:100px;">
     <img src="img/logo/aws.png" alt="AWS Logo" style="width:180px;height:100px;">
     <img src="img/logo/adobe.png" alt="Adobe Logo" style="width:85px;height:100px;">
-    <img src="img/logo/nvf.png" alt="NVF Logo" style="width:250px;height:100px;">
+    <img src="img/logo/nvf.png" alt="NVF Logo" style="width:250px;height:100px;"> -->
 </div>
 
 <br></br>

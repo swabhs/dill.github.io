@@ -2,31 +2,11 @@
 - selector: group_gallery
   bullets: true
   captions: true
-  images:
-    - src: /img/gallery/lunch-mar2022.jpg
-      alt: Group lunch at Paul G. Allen Center
-    - src: /img/gallery/dinner-oct2021.jpg
-      alt: First group dinner in Seattle! Zaika, October 2021.
-    - src: /img/gallery/picnic-apr2021-1.jpg
-      alt: Socially distanced picnic in April 2021
-    - src: /img/gallery/picnic-apr2021-2.jpg
-      alt: Socially distanced picnic in April 2021
-    - src: /img/gallery/picnic-sep20.jpg
-      alt: Socially distanced picnic with the new members and Emma
-    - src: /img/gallery/first-picnic-2020.jpg
-      alt: First socially distanced picnic
-    - src: /img/gallery/zoom-2020.jpg
-      alt: First zoom group meeting
-    - src: /img/gallery/dinner-2019.jpg
-      alt: Group dinner
-    - src: /img/gallery/seven-springs-2019.jpg
-      alt: SCS ski trip @Seven Springs
-    - src: /img/gallery/emnlp-2019.jpg
-      alt: Group lunch @EMNLP2019
-    - src: /img/gallery/dinner-20182.jpg
-      alt: Group dinner @acorn
-    - src: /img/gallery/dinner-2018.jpg
-      alt: Group dinner @umami
+  images: false
+    # - src: /img/gallery/lunch-mar2022.jpg
+    #   alt: Group lunch at Paul G. Allen Center
+    # - src: /img/gallery/dinner-oct2021.jpg
+    #   alt: First group dinner in Seattle! Zaika, October 2021.
   settings:
     height: "300"
     maxHeight: "300"

@@ -1,152 +1,148 @@
 
-yulia:
-    display_name: "Yulia Tsvetkov"
-    webpage: "http://www.cs.cmu.edu/~ytsvetko/"
-    image: /img/people/yulia.jpg
+swabha:
+    display_name: "Swabha Swayamdipta"
+    webpage: "http://swabhs.com"
+    image: /img/people/swabha.jpg
     role: faculty
     bio: Assistant Professor
 
-anjalie:
-    display_name: "Anjalie Field"
-    webpage: "http://www.cs.cmu.edu/~anjalief/"
-    role: grad
-    image: /img/people/anjalie.jpg
-    bio: PhD Student, CMU
+####################################
 
-sachin:
-    display_name: "Sachin Kumar"
-    webpage: "https://sites.google.com/view/sachinkumar"
-    image: /img/people/sachin.jpg
+jaspreet:
+    display_name: "Jaspreet Ranjit"
+    webpage: "https://jr4fs.github.io/"
     role: grad
-    bio: PhD Student, CMU
+    image: /img/people/jaspreet.png
+    bio: PhD Student, Starting Fall 2022
 
-vidhisha:
-    display_name: "Vidhisha Balachandran"
-    webpage: "https://vidhishanair.github.io"
-    image: /img/people/vidhisha.jpg
+sayan:
+    display_name: "Sayan Ghosh"
+    webpage: "https://sled.eecs.umich.edu/author/sayan-ghosh/"
     role: grad
-    bio: PhD Student, CMU
+    image: /img/people/sayan.jpeg
+    bio: PhD Student, Starting Fall 2022
 
-chan:
-    display_name: "Chan Young Park"
-    webpage: "https://chan0park.github.io"
-    image: /img/people/chan.png
+ting-rui:
+    display_name: "Ting-Rui Chiang"
+    webpage: "https://ctinray.github.io/"
     role: grad
-    bio: PhD Student, CMU
+    image: /img/people/ting-rui.jpeg
+    coadvisor: Dani Yogatama
+    bio: PhD Student, Starting Fall 2022
 
-artidoro:
-    display_name: "Artidoro Pagnoni"
-    webpage: "https://artidoro.github.io"
-    image: /img/people/artidoro.jpg
+jivat:
+    display_name: "Jivat Neet Kaur"
+    webpage: "https://jivatneet.github.io/"
     role: grad
+    image: /img/people/jivat.jpeg
+    coadvisor: Robin Jia
+    bio: PhD Student, Starting Spring 2023
+
+##############################
+
+alisa:
+    display_name: "Alisa Liu"
+    webpage: "https://alisawuffles.github.io/"
+    role: collab
+    image: /img/people/alisa.jpeg
     bio: PhD Student, UW
 
-han:
-    display_name: "Xiaochuang Han"
-    webpage: "https://xhan77.github.io"
-    image: /img/people/han.jpg
-    role: grad
+xuhui:
+    display_name: "Xuhui Zhou"
+    webpage: "https://xuhuizhou.github.io/"
+    image: /img/people/xuhui.jpeg
+    role: collab
+    coadvisor: Maarten Sap
+    bio: PhD Student, CMU LTI
+
+hanjie:
+    display_name: "Hanjie Chen"
+    webpage: "https://www.cs.virginia.edu/~hc9mx/"
+    image: /img/people/hanjie.jpeg
+    role: collab
+    coadvisor: Faeze Brahman, Xiang Ren
+    bio: PhD Student, UVa
+
+junlin:
+    display_name: "Junlin Wang"
+    webpage: "https://isthatyou.github.io/"
+    role: collab
+    image: /img/people/junlin.jpeg
+    bio: Masters Student, UCI
+
+liwei:
+    display_name: "Liwei Jiang"
+    role: collab
+    webpage: "https://liweijiang.me/"
+    image: /img/people/liwei.jpeg
     bio: PhD Student, UW
 
-alissa:
-    display_name: "Alissa Ostapenko"
-    webpage: "https://ostapen.github.io"
-    image: /img/people/alissa.jpg
-    role: grad
-    bio: MLT Student, CMU
-
-oreva:
-    display_name: "Orevaoghene Ahia"
-    webpage: "https://orevaahia.github.io"
-    image: /img/people/oreva.jpg
-    role: grad
-    bio: PhD Student, UW
-    coadvisor: Noah A. Smith
-
-melanie:
-    display_name: "Melanie Sclar"
-    webpage: "https://msclar.github.io"
-    image: /img/people/melanie.jpg
-    role: grad
-    bio: PhD Student, UW
-    coadvisor: Yejin Choi
-
-lucille:
-    display_name: "Lucille Njoo"
-    webpage: "/#"
-    role: grad
+jillian:
+    display_name: "Jillian Fisher"
+    role: collab
+    webpage: "https://stat.uw.edu/about-us/people/jillian-fisher"
+    image: /img/people/jillian.jpeg
     bio: PhD Student, UW
 
+jiao:
+    display_name: "Jiao Sun"
+    role: collab
+    webpage: "https://sunjiao123sun.github.io/"
+    image: /img/people/jiao.jpeg
+    bio: PhD Student, USC
 
-zirui:
-    display_name: "Zirui Wang"
-    webpage: "https://www.cs.cmu.edu/~ziruiw/"
-    image: /img/people/zirui.jpg
-    role: alum
-    bio: PhD '22 (Google Research)
+kawin:
+    display_name: "Kawin Ethayarajh"
+    role: collab
+    webpage: "https://kawine.github.io/"
+    image: /img/people/kawin.jpeg
+    bio: PhD Student, Stanford; Intern at AI2
 
-rishabh:
-    display_name: "Rishabh Joshi"
-    webpage: "https://rishabhjoshi.github.io"
-    image: /img/people/rishabh.jpg
-    role: alum
-    bio: MLT '21 (Google Research)
+sarah:
+    display_name: "Sarah Wiegreffe"
+    role: collab
+    webpage: "https://sarahwie.github.io/"
+    image: /img/people/sarah.jpeg
+    coadvisor: Jack Hessel
+    bio: PhD Student, Georgia Tech; Intern at AI2; Now YI, AI2
 
-antonio:
-    display_name: "Antonio Theophilo"
-    webpage: "https://antoniotheophilo.github.io/"
-    image: /img/people/antonio.png
-    role: alum
-    bio: UNICAMP
+##################################################
 
-nupoor:
-    display_name: "Nupoor Gandhi"
-    webpage: "https://nupoorgandhi.github.io/"
-    image: /img/people/nupoor.jpg
+abdallah:
+    display_name: "Abdallah Bashir"
+    webpage: "https://abdallah197.com/"
     role: alum
+    image: /img/people/abdallah.jpeg
+    bio: Masters Student, Saarland University; Intern at AI2
+
+ayush:
+    display_name: "Ayush Pancholy"
+    role: ugrad-alum
+    image: /img/people/ayush.jpeg
+    bio: Undergrad, UC Berkeley
+
+krishna:
+    display_name: "Krishna Pillutla"
+    webpage: "https://krishnap25.github.io/"
+    role: alum
+    image: /img/people/krishna.jpeg
+    bio: PhD Student, UW
+
+alon:
+    display_name: "Alon Jacovi"
+    webpage: "https://alonjacovi.github.io/"
+    role: alum
+    image: /img/people/alon.jpeg
+    bio: PhD Student, Bar Ilan University
+
+jenny:
+    display_name: "Jenny T. Liang"
+    webpage: "https://jennyliang.me/"
+    role: alum
+    image: /img/people/jenny.png
     bio: PhD Student, CMU
-    # coadvisor: Alex Chouldechova
 
-yiheng:
-    display_name: "Yiheng Zhou"
-    webpage: "https://www.lti.cs.cmu.edu/people/222218393/yiheng-zhou"
-    image: /img/people/yiheng.png
-    role: alum
-    bio: MLT '19 (Amazon Alexa)
-
-emily:
-    display_name: "Emily Ahn"
-    webpage: "http://emilyahn.github.io"
-    image: /img/people/emily.png
-    role: alum
-    bio: MLT '19 (University of Washington)
-
-gayatri:
-    display_name: "Gayatri Bhat"
-    webpage: "https://www.cs.cmu.edu/directory/gbhat"
-    image: /img/people/gayatri.png
-    role: alum
-    bio: MLT '20 (Bloomberg AI)
-
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
-
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
-
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
-
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
-
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
+##################################################
 
 ugrad-a:
     display_name: "Ugrad A"
