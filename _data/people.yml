@@ -91,22 +91,22 @@ jiao:
     image: /img/people/jiao.jpeg
     bio: PhD Student, USC
 
+##################################################
+
 kawin:
     display_name: "Kawin Ethayarajh"
-    role: collab
+    role: alum
     webpage: "https://kawine.github.io/"
     image: /img/people/kawin.jpeg
     bio: PhD Student, Stanford; Intern at AI2
 
 sarah:
     display_name: "Sarah Wiegreffe"
-    role: collab
+    role: alum
     webpage: "https://sarahwie.github.io/"
     image: /img/people/sarah.jpeg
     coadvisor: Jack Hessel
     bio: PhD Student, Georgia Tech; Intern at AI2; Now YI, AI2
-
-##################################################
 
 abdallah:
     display_name: "Abdallah Bashir"

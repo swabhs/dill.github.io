@@ -2,6 +2,7 @@
 layout: default
 title: DILL Lab
 notitle: true
+years: [2022, 2021, 2020]
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
@@ -26,27 +27,44 @@ alum-tables:
     <p>
         Welcome to the <b>Data, Interpretability, Language and Learning Lab</b>, at the <a href="https://cs.usc.edu">Computer Science Department</a>
         in the <a href="https://viterbischool.usc.edu/">Viterbi School of Engineering</a> at the <a href="https://www.usc.edu/">University of Southern California</a>.
-        DILL is led by <a href="https://swabhs.com">Swabha Swayamdipta</a>.
+        <!-- DILL is led by <a href="https://swabhs.com">Swabha Swayamdipta</a>. -->
     </p>
 </div>
-{% comment %} <br/>
-<div class="jumbotron bg-dark text-white">
+<br/>
+<!-- <div class="jumbotron bg-dark text-white">
     <p>
         Our lab strongly condemns racism and is committing to promoting justice and lasting change #BlackLivesMatter
     </p>
-</div> {% endcomment %}
+</div>  -->
+
+<div id="people" style="margin-bottom:40px; padding:20px;">
+    <h2 style="margin-top:0px;">People</h2>
+    {% for role-table in page.role-tables %}
+        <section class="people row justify-content-between">
+            {% for role-column in role-table %}
+                <div class="col-md-{{ role-column.width }}">
+                    {% for role in role-column.roles %}
+                        {% include role-people.html role=role image=role-column.image %}
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </section>
+    {% endfor %}
+    <div align="right" ><a href="{{ site.base }}/people.html">Alumni</a></div>
+</div>
+
+<hr></hr>
 
 <section style="padding:20px;">
     <h2>News</h2>
     <div class="row">
         <div class="col-md-6">
-        {% include slider.html selector="group_gallery" %}
+            {% include slider.html selector="group_gallery" %}
         </div>
         <div class="col-md-6">
-        <div class="twt_wrap">
-        <a class="twitter-timeline" dnt="true" data-width="700" data-height="300" data-theme="light" data-chrome="noheader nofooter"
-        href="https://twitter.com/swabhz"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+            <!-- <div class="twt_wrap">
+                <a class="twitter-timeline" dnt="true" data-width="700" data-height="300" data-theme="light" data-chrome="noheader nofooter" href="https://twitter.com/swabhz"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div> -->
         </div>
     </div>
 
@@ -64,25 +82,8 @@ alum-tables:
     {% endif %}
 </section>
 
-<hr></hr>
-<div id="people" style="margin-bottom:40px; padding:20px;">
-    <h2 style="margin-top:0px;">People</h2>
-    {% for role-table in page.role-tables %}
-        <section class="people row justify-content-between">
-            {% for role-column in role-table %}
-                <div class="col-md-{{ role-column.width }}">
-                    {% for role in role-column.roles %}
-                        {% include role-people.html role=role image=role-column.image %}
-                    {% endfor %}
-                </div>
-            {% endfor %}
-        </section>
-    {% endfor %}
-    <div align="right" ><a href="{{ site.base }}/people.html">Alumni</a></div>
-</div>
-
 {% comment %} <hr></hr> {% endcomment %}
-{% comment %} <div id="research" style="margin-bottom:40px;">
+<!-- <div id="research" style="margin-bottom:40px;">
     <h2>Research</h2>
     <div class="card-columns">
         {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
@@ -93,7 +94,7 @@ alum-tables:
             {% endif %}
         {% endfor %}
     </div>
-</div> {% endcomment %}
+</div>  -->
 
 <hr></hr>
 
@@ -112,10 +113,6 @@ alum-tables:
     <!-- Our work has been supported by the following organizations/companies:
     <br></br>
     <img src="img/logo/google.png" alt="DARPA Logo" style="width:230px;height:75px;padding-right: 20px;">
-    <img src="img/logo/darpa.jpg" alt="DARPA Logo" style="width:150px;height:100px;padding-right: 10px;">
-    <img src="img/logo/nsf.png" alt="NSF Logo" style="width:100px;height:100px;">
-    <img src="img/logo/aws.png" alt="AWS Logo" style="width:180px;height:100px;">
-    <img src="img/logo/adobe.png" alt="Adobe Logo" style="width:85px;height:100px;">
     <img src="img/logo/nvf.png" alt="NVF Logo" style="width:250px;height:100px;"> -->
 </div>
 
